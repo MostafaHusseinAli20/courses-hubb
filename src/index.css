@@ -1,0 +1,65 @@
+/*Reset Page*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Main Style*/
+body{
+  background: linear-gradient(to top , #000017 , #5b17c1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+a{
+  text-decoration: none!important;
+}
+ul{
+  list-style: none;
+}
+.offcanvas {
+  background: linear-gradient(to top , #000017 , #5b17c1);
+}
+/*Home Page*/
+.card{
+  border: 1px solid #5b17c1!important;
+  
+}
+.card-body{
+  background: linear-gradient(to top , #000017 , #5b17c1);
+  background-attachment: fixed;
+  color: #ffffff!important;
+}
+/*Title All Courses*/
+h1.gradiant{
+  font-weight: bolder;
+  background:linear-gradient(to bottom , #5b17c1 , #dbd0d0);
+  background-clip: text!important;
+  --webkit-background-clip:text!important;
+  color: transparent !important;
+}
+.btn-grdiant {
+  color: #fff!important;
+  background: linear-gradient(to right , #310d66 , #5b17c1)
+}
+/*About Page*/
+.icon i , .notFound h1{
+  animation-name: IconFrame ;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+@keyframes IconFrame {
+  0% {color: aqua;}
+  50% {color:violet}
+  100% {color: rgb(242, 69, 7);}
+}
+/*Contact Page*/
+.contact [type=submit] ,
+.addtion [type=submit] ,
+.show-course [type=button]{
+  font-weight: bolder;
+  background:linear-gradient(to right , #310d66 , #5b17c1);
+}
