@@ -13,7 +13,6 @@ import CourseAngluar from "./pages/Courses/Course Angluar/CourseAngluar.jsx";
 import AboutWebsite from "./pages/About to website/About.jsx";
 import ContactPage from "./pages/Contact/Contact.jsx";
 import AddCoursePage from "./pages/Add Courses/addCourse.jsx";
-import NotMatchPage from "./pages/NotMatch/NotMatch.jsx";
 import ShowCourses from "./pages/Add Courses/ShowCourses.jsx";
 import CourseNext from "./pages/Courses/Course Next/CourseNext.jsx";
 function App() {
@@ -35,7 +34,6 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/addCourses" element={<AddCoursePage />} />
         <Route path="/showCourses" element={<ShowCourses />} />
-        <Route path="*" element={<NotMatchPage />} />
       </Routes>
       <Footer />
     </>
