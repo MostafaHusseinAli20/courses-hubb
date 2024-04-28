@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/courses-hubb/static/css/main.ce59c917.css",
-    "main.js": "/courses-hubb/static/js/main.0cbc685a.js",
+    "main.css": "/courses-hubb/static/css/main.9088ac87.css",
+    "main.js": "/courses-hubb/static/js/main.738a2363.js",
     "static/media/freecodecamp content.webp": "/courses-hubb/static/media/freecodecamp content.52770279b950f77e9a30.webp",
     "static/media/logo.webp": "/courses-hubb/static/media/logo.89e83c59b6902ff61bb7.webp",
     "static/media/learn-tiwland-1.webp": "/courses-hubb/static/media/learn-tiwland-1.9796073461dfaf986ba8.webp",
@@ -52,11 +52,11 @@
     "index.html": "/courses-hubb/index.html",
     "static/media/typescript.svg": "/courses-hubb/static/media/typescript.7c2e5f599fa6ccab4be8a590908ec5bb.svg",
     "static/media/Anglaur.svg": "/courses-hubb/static/media/Anglaur.8d025088a1ff1e8c05194f4ddab7a0ad.svg",
-    "main.ce59c917.css.map": "/courses-hubb/static/css/main.ce59c917.css.map",
-    "main.0cbc685a.js.map": "/courses-hubb/static/js/main.0cbc685a.js.map"
+    "main.9088ac87.css.map": "/courses-hubb/static/css/main.9088ac87.css.map",
+    "main.738a2363.js.map": "/courses-hubb/static/js/main.738a2363.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce59c917.css",
-    "static/js/main.0cbc685a.js"
+    "static/css/main.9088ac87.css",
+    "static/js/main.738a2363.js"
   ]
 }
