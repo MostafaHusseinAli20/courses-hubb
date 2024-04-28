@@ -12,9 +12,8 @@ import CourseVue from "./pages/Courses/Course Vue/Vue.jsx";
 import CourseAngluar from "./pages/Courses/Course Angluar/CourseAngluar.jsx";
 import AboutWebsite from "./pages/About to website/About.jsx";
 import ContactPage from "./pages/Contact/Contact.jsx";
-import AddCoursePage from "./pages/Add Courses/addCourse.jsx";
-import ShowCourses from "./pages/Add Courses/ShowCourses.jsx";
 import CourseNext from "./pages/Courses/Course Next/CourseNext.jsx";
+import LoadPage from "./pages/loadPage/load.jsx";
 function App() {
   return (
     <>
@@ -32,8 +31,7 @@ function App() {
         <Route path="/courseNext" element={<CourseNext/>} />
         <Route path="/about" element={<AboutWebsite />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/addCourses" element={<AddCoursePage />} />
-        <Route path="/showCourses" element={<ShowCourses />} />
+        <Route path="*" element={<LoadPage />} />
       </Routes>
       <Footer />
     </>

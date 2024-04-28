@@ -35,12 +35,8 @@ function Navbar() {
                   <Link to="/" href=" "><li className='mb-4 text-light fs-4'>Home <i class="fa-solid fa-house"></i></li></Link>
                   <Link to="/about" href=" "><li className='mb-4 text-light fs-4'>About To Website <i class="fa-brands fa-dropbox"></i></li></Link>
                   <Link to="/contact" href=" "><li className='mb-4 text-light fs-4'>Contact Me <i class="fa-solid fa-phone"></i></li></Link>
-                  <Link to="/addCourses" href=" "><li className='mb-4 text-light fs-4'>Add Courses <i class="fa-solid fa-plus"></i></li></Link>
                 </ul>
-
               </div>
-           
-            
             </div>
             </div>
             </nav>
